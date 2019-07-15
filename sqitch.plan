@@ -3,3 +3,4 @@
 %uri=https://github.com/dime8/tipsters/
 
 appschema 2019-07-15T12:03:40Z Dimitrija Tomic <dimitrijadimetomic@gmail.com> # Add schema for tipsters objects
+users [appschema] 2019-07-15T14:26:24Z Dimitrija Tomic <dimitrijadimetomic@gmail.com> # Creates table users.
