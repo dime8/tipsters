@@ -8,7 +8,7 @@ CREATE OR REPLACE FUNCTION tipsters.insert_user(
     username TEXT,
     password TEXT
 ) RETURNS VOID LANGUAGE SQL SECURITY DEFINER AS $$
-    INSERT INTO tipsters.users VALUES($1, md5($2));
+    INSERT INTO tipsters.users(username, password) VALUES($1, $2);
 $$;
 -- XXX Add DDLs here.
 

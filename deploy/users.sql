@@ -6,8 +6,10 @@ BEGIN;
 SET client_min_messages = 'warning';
 
 CREATE TABLE tipsters.users (
-    username  TEXT        PRIMARY KEY,
-    password  TEXT        NOT NULL
+    ID        uuid        DEFAULT uuid_generate_v4(),
+    username  TEXT        NOT NULL,
+    password  TEXT        NOT NULL,
+    PRIMARY KEY (ID)
 );
 
 -- XXX Add DDLs here.
