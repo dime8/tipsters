@@ -5,5 +5,7 @@
 appschema 2019-07-15T12:03:40Z Dimitrija Tomic <dimitrijadimetomic@gmail.com> # Add schema for tipsters objects
 users [appschema] 2019-07-15T14:26:24Z Dimitrija Tomic <dimitrijadimetomic@gmail.com> # Creates table users.
 insert_user [users appschema] 2019-07-15T14:57:16Z Dimitrija Tomic <dimitrijadimetomic@gmail.com> # Create a function to insert a user
-
-
+teams [appschema] 2019-07-16T11:43:28Z Dimitrija Tomic <dimitrijadimetomic@gmail.com> # Creates table teams.
+matches [appschema teams] 2019-07-16T12:19:13Z Dimitrija Tomic <dimitrijadimetomic@gmail.com> # Creates table matches.
+predictions [appschema users matches] 2019-07-16T13:40:24Z Dimitrija Tomic <dimitrijadimetomic@gmail.com> # Creates table predictions.
+insert_team [teams appschema] 2019-07-16T14:10:13Z Dimitrija Tomic <dimitrijadimetomic@gmail.com> # Create a function to insert a team
