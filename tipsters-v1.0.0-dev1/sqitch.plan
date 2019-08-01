@@ -8,5 +8,3 @@ teams [appschema] 2019-07-16T11:43:28Z Dimitrija Tomic <dimitrijadimetomic@gmail
 matches [appschema teams] 2019-07-16T12:19:13Z Dimitrija Tomic <dimitrijadimetomic@gmail.com> # Creates table matches.
 predictions [appschema users matches] 2019-07-16T13:40:24Z Dimitrija Tomic <dimitrijadimetomic@gmail.com> # Creates table predictions.
 @v1.0.0-dev1 2019-08-01T13:08:59Z dimitrijadimetomic@gmail.com <dimitrijadimetomic@gmail.com> # Tag v1.0.0-dev1.
-
-invites [appschema users matches] 2019-08-01T13:33:27Z dimitrijadimetomic@gmail.com <dimitrijadimetomic@gmail.com> # Adds table for invites.
